@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Menu fixo */
+nav {
+    background-color: #1d3557;
+    color: #f1faee;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #f1faee;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e63946;
+}
+
+/* Conteúdo centralizado */
+.container {
+    max-width: 950px;
+    margin: 130px auto 50px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Cabeçalhos */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #1d3557;
+}
+
+/* Links do portfólio */
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio-item a {
+    color: #457b9d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo das imagens do portfólio */
+.portfolio-item img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: block;
+    border: 2px solid #89CFF0;
+    padding: 2px;
+}
+
+
+/* Formulário de contato */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+form button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #e63946;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #d62839;
+}
