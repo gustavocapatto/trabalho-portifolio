@@ -7,15 +7,15 @@
 
 /* Corpo da página */
 body {
-    background-color: #f0f4f8;
+    background-color: #fff5e6;
     color: #333;
     line-height: 1.5;
 }
 
 /* Menu fixo */
 nav {
-    background-color: #1d3557;
-    color: #f1faee;
+    background-color: #ff8c00;
+    color: #fffaf0;
     padding: 15px 30px;
     position: fixed;
     top: 0;
@@ -36,14 +36,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f1faee;
+    color: #fffaf0;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #e63946;
+    color: #ffd700;
 }
 
 /* Conteúdo centralizado */
@@ -51,7 +51,7 @@ nav ul li a:hover {
     max-width: 950px;
     margin: 130px auto 50px auto;
     padding: 25px;
-    background-color: #ffffff;
+    background-color: #fffaf0;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
@@ -59,7 +59,7 @@ nav ul li a:hover {
 /* Cabeçalhos */
 h1, h2 {
     margin-bottom: 20px;
-    color: #1d3557;
+    color: #ff8c00;
 }
 
 /* Links do portfólio */
@@ -68,13 +68,14 @@ h1, h2 {
 }
 
 .portfolio-item a {
-    color: #457b9d;
+    color: #ffa500;
     text-decoration: none;
     font-weight: 500;
 }
 
 .portfolio-item a:hover {
     text-decoration: underline;
+    color: #ff8c00;
 }
 
 /* Estilo das imagens do portfólio */
@@ -84,10 +85,9 @@ h1, h2 {
     margin-bottom: 15px;
     border-radius: 8px;
     display: block;
-    border: 2px solid #89CFF0;
+    border: 2px solid #ffd700;
     padding: 2px;
 }
-
 
 /* Formulário de contato */
 form input, form textarea {
@@ -95,14 +95,15 @@ form input, form textarea {
     padding: 12px;
     margin-bottom: 15px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffd700;
     font-size: 14px;
+    background-color: #fffaf0;
 }
 
 form button {
     padding: 12px 25px;
     border: none;
-    background-color: #e63946;
+    background-color: #ff8c00;
     color: #fff;
     font-weight: bold;
     border-radius: 6px;
@@ -111,5 +112,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #d62839;
+    background-color: #e67300;
 }
